@@ -1,0 +1,7 @@
+[package]
+name = "euler"
+version = "0.1.0"
+authors = ["marony <marony@binbo-kodakusan.com>"]
+
+[dependencies]
+time = "0.1.35"
