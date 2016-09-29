@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Rust &lt;euler&gt;">
     <CLASSES>
-      <root url="jar://$USER_HOME$/rust-1.13.0-src.zip!/rust-a059cb2f3344c0a9efae17dde3d0e16a55ce93db/src/libstd" />
-      <root url="jar://$USER_HOME$/rust-1.13.0-src.zip!/rust-a059cb2f3344c0a9efae17dde3d0e16a55ce93db/src/libcore" />
-      <root url="jar://$USER_HOME$/rust-1.13.0-src.zip!/rust-a059cb2f3344c0a9efae17dde3d0e16a55ce93db/src/libcollections" />
-      <root url="jar://$USER_HOME$/rust-1.13.0-src.zip!/rust-a059cb2f3344c0a9efae17dde3d0e16a55ce93db/src/liballoc" />
-      <root url="jar://$USER_HOME$/rust-1.13.0-src.zip!/rust-a059cb2f3344c0a9efae17dde3d0e16a55ce93db/src/librustc_unicode" />
+      <root url="jar://$USER_HOME$/rust-1.13.0-src_2.zip!/rust-4f9812a59ab7247f0f52b01ca89b0793a2d289c3/src/libstd" />
+      <root url="jar://$USER_HOME$/rust-1.13.0-src_2.zip!/rust-4f9812a59ab7247f0f52b01ca89b0793a2d289c3/src/libcore" />
+      <root url="jar://$USER_HOME$/rust-1.13.0-src_2.zip!/rust-4f9812a59ab7247f0f52b01ca89b0793a2d289c3/src/libcollections" />
+      <root url="jar://$USER_HOME$/rust-1.13.0-src_2.zip!/rust-4f9812a59ab7247f0f52b01ca89b0793a2d289c3/src/liballoc" />
+      <root url="jar://$USER_HOME$/rust-1.13.0-src_2.zip!/rust-4f9812a59ab7247f0f52b01ca89b0793a2d289c3/src/librustc_unicode" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
