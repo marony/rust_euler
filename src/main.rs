@@ -519,18 +519,6 @@ fn problem_014() {
     fn is_even(n: u64) -> bool {
         n % 2 == 0
     }
-//    fn collatz_1<'a>(n: u64, v: &'a mut Vec<u64>) -> &'a Vec<u64>
-//    {
-//        v.push(n);
-//        if n == 1 {
-//            return v;
-//        }
-//        if is_even(n) {
-//            collatz_1(n / 2, v)
-//        } else {
-//            collatz_1(n * 3 + 1, v)
-//        }
-//    }
     fn collatz(n: u64, m: i32) -> i32
     {
         if n == 1 {
@@ -542,27 +530,8 @@ fn problem_014() {
             collatz(n * 3 + 1, m + 1)
         }
     }
-//    {
-//        let mut v = vec![];
-//        let a = collatz_1(13u64, &mut v);
-//        let len = a.len();
-//        println!("{}, {:?}", len, a);
-//    }
-//    {
-//        let mut v = vec![];
-//        let a = collatz_1(837799u64, &mut v);
-//        let len = a.len();
-//        println!("{}, {:?}", len, a);
-//    }
     {
-//        fn f(n: u64) -> (Vec<u64>, usize) {
-//            let mut v = vec![];
-//            let v = collatz_1(n, &mut v);
-//            (v.clone(), v.len())
-//        }
         let max = 1000000u64;
-//        let a = (1u64..max).map(|n| f(n)).max_by_key(|t| t.1).unwrap_or((vec![], 0));
-//        println!("{:?}", a);
         let a = (1u64..max).map(|n| (n, collatz(n, 0))).max_by_key(|t| t.1).unwrap_or((0, 0));
         println!("{:?}", a);
     }
